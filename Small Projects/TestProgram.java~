@@ -1,0 +1,14 @@
+public class TestProgram{
+  public static void main(String[] args){
+  My2DPoint firstPoint;
+  firstPoint = new My2DPoint();
+  firstPoint.x = 4;
+  firstPoint.y = 6;
+  My2DPoint secondpoint = new My2DPoint();
+  System.out.println( secondpoint.Add2DPoint(3,3) );
+  System.out.println(firstPoint.x);
+  System.out.println(firstPoint.y);
+  
+  
+  }
+}
